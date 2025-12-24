@@ -53,6 +53,7 @@ function TodoList({ username, onLogout }) {
             console.error('Error adding todo:', err);
         }
     };
+    
 
     // 3. UPDATE: Toggle the 'done' status
     const handleToggleDone = async (id, currentDoneStatus) => {
